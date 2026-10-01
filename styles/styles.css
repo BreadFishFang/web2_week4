@@ -36,5 +36,17 @@
     /* if you worried about repeat, you can turn it off... */
     background-repeat: no-repeat;
 
-    
+
 }
+
+/***********************************************************************
+                                Images in HTML 
+ ***********************************************************************/
+
+ .srcset-test img{
+    /*max-inline-size instead of max-width to ensure the image sizes 
+    relative to the reading direction of the next text */
+    max-inline-size: 100%;
+    /* make sure the images sizes in ratio */
+    block-size: auto;
+ }
